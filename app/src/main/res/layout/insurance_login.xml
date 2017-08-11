@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insurance Company id : "
+            android:id="@+id/edd"
+            android:layout_marginTop="100dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Branch Name : "
+            android:layout_below="@+id/edd"
+            android:layout_marginTop="30dp"
+            android:id="@+id/loc"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password : "
+            android:layout_below="@+id/edd"
+            android:layout_marginTop="100dp"
+            android:id="@+id/pass"
+            />
+
+        <Button
+            android:id="@+id/buts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@color/Aqua"
+            android:layout_marginTop = "60dp"
+            android:layout_marginLeft="150dp"
+            android:layout_below="@+id/pass"
+            />
+    </RelativeLayout>
+</LinearLayout>

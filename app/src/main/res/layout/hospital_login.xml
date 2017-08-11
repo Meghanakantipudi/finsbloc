@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/l_loginid">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login Id :"
+                android:textSize="24dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"/>
+            <EditText
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/l_hid"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/l_loginpwd"
+            android:layout_below="@+id/l_loginid">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password :"
+                android:textSize="24dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"/>
+            <EditText
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/l_hpwd"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_loginpwd"
+            android:paddingLeft="150dp"
+            android:paddingTop="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/login"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

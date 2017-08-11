@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="Name : "
+                android:textColor="@color/Black"
+                android:layout_marginLeft="56dp"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="Ravi"
+                android:id="@+id/tv1"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Identity : "
+                android:textColor="@color/Black"
+                android:layout_marginLeft="43dp"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="328578778474"
+                android:id="@+id/tv2"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Nation : "
+                android:textColor="@color/Black"
+                android:layout_marginLeft="55dp"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Indian"
+                android:id="@+id/tv3"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Birth : "
+                android:textColor="@color/Black"
+                android:layout_marginLeft="78dp"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="04/06/1967"
+                android:id="@+id/tv4"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Death: "
+                android:textColor="@color/Black"
+                android:layout_marginLeft="78dp"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="06/05/2016"
+                android:id="@+id/tv5"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Place : "
+                android:textColor="@color/Black"
+                android:layout_marginLeft="78dp"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="hyderabad"
+                android:id="@+id/tv6"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/b1">
+            <Button
+                android:id="@+id/verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verify the details"
+                android:background="@color/GreenYellow"
+                android:layout_marginTop = "30dp"
+                android:layout_marginLeft="100dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below = "@+id/b1">
+            <Button
+                android:id="@+id/gc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Issue death certificate"
+                android:background="@color/GreenYellow"
+                android:layout_marginTop = "60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_below = "@+id/verify"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

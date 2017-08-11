@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.meghana.ui">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Entrance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Buttons"></activity>
+        <activity android:name=".Hospital_main"></activity>
+        <activity android:name=".Hospital_Login"></activity>
+        <activity android:name=".Hospital_Registration"></activity>
+        <activity android:name=".Hospital_patient"></activity>
+        <activity android:name=".Insurance_details"></activity>
+        <activity android:name=".Mainpage"></activity>
+        <activity android:name=".Claim_login"></activity>
+        <activity android:name=".Being_verified"></activity>
+        <activity android:name=".Blockchain_enter"></activity>
+        <activity android:name=".LoginNext"></activity>
+        <activity android:name=".State_health_login"></activity>
+        <activity android:name=".Applications"></activity>
+        <activity android:name=".Details_display"></activity>
+        <activity android:name=".Insurance_login"></activity>
+        <activity android:name=".Nominee_ids"></activity>
+        <activity android:name=".Nominee_details"></activity>
+    </application>
+
+</manifest>

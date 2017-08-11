@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.meghana.ui.Mainpage"
+    android:weightSum="1">
+
+    <ViewFlipper
+        android:layout_width="wrap_content"
+        android:id="@+id/flip"
+        android:autoStart="true"
+        android:layout_height="290dp">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/first1" />
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="395dp"
+            android:layout_height="289dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/main4" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sec1" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ins3" />
+
+
+    </ViewFlipper>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Registration    "
+            android:background="@color/ForestGreen"
+            android:textColor="@color/White"
+            android:id="@+id/registration"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/ForestGreen"
+            android:text="Login"
+            android:id="@+id/login"
+            android:textColor="@color/White"
+
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/registration"
+            android:layout_marginTop="40dp"/>
+
+
+    </RelativeLayout>
+</LinearLayout>
